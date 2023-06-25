@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "c3845772-9a62-4d9f-a479-14ce63e027d0",
+		"name": "trabajo final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.using.buenosaires.gob.ar/normalizarse ",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"using",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizarse "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.using.buenosaires.gob.ar/normalizarse ",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"using",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizarse "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.using.buenosaires.gob.ar/normalizarse/?direccion",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"using",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizarse",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=callao y corrientes",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "callao y corrientes"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=loria e Italia",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "loria e Italia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=callaoy Austria",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "callaoy Austria"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=2750, Recoleta",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "2750, Recoleta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-58.402165&lat=-34.762920&tipoResultado=calle_altura",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-58.402165"
+						},
+						{
+							"key": "lat",
+							"value": "-34.762920"
+						},
+						{
+							"key": "tipoResultado",
+							"value": "calle_altura"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=callao ,y sarmiento\n\n",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "callao ,y sarmiento\n\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
